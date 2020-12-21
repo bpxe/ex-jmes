@@ -140,7 +140,7 @@ defmodule JMES do
   end
 
   defp eval({:json, value}, _data, _opts) do
-    Poison.decode(value)
+    Jason.decode(value)
   end
 
   defp eval(value, _data, _opts) when is_binary(value) do
