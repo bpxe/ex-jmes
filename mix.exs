@@ -15,7 +15,7 @@ defmodule JMES.MixProject do
         "coveralls.post": :test,
         "coveralls.html": :test
       ],
-      description: "JMES implements JMESPath, a query language for JSON.",
+      description: "JMES implements JMESPath, a query language for JSON (BPXE's fork)",
       source_url: "https://github.com/bpxe/ex-jmes",
       package: package()
     ]

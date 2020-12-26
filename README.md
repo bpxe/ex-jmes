@@ -1,6 +1,7 @@
 # JMES
 
-JMES implements JMESPath, a query language for JSON.
+JMES implements JMESPath, a query language for JSON. This is a fork of the
+[original version of JMES](https://github.com/stephan83/ex-jmes)
 
 It passes the official compliance tests.
 
