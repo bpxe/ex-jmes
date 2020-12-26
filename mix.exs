@@ -4,7 +4,7 @@ defmodule JMES.MixProject do
   def project do
     [
       app: :jmes,
-      version: "0.4.1",
+      version: "0.5.0",
       elixir: "~> 1.8",
       start_permanent: Mix.env() == :prod,
       deps: deps(),
@@ -16,7 +16,7 @@ defmodule JMES.MixProject do
         "coveralls.html": :test
       ],
       description: "JMES implements JMESPath, a query language for JSON.",
-      source_url: "https://github.com/stephan83/ex-jmes",
+      source_url: "https://github.com/bpxe/ex-jmes",
       package: package()
     ]
   end
@@ -47,8 +47,9 @@ defmodule JMES.MixProject do
 
   defp package do
     [
+      name: "bpxe_jmes",
       licenses: ["MIT"],
-      links: %{"GitHub" => "https://github.com/stephan83/ex-jmes"}
+      links: %{"GitHub" => "https://github.com/bpxe/ex-jmes"}
     ]
   end
 end
