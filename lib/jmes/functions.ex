@@ -410,7 +410,7 @@ defmodule JMES.Functions do
   end
 
   def call("to_string", [value], _opts) do
-    Poison.encode(value)
+    Jason.encode(value)
   end
 
   # ==============================================================================================

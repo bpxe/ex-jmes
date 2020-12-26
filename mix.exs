@@ -41,7 +41,7 @@ defmodule JMES.MixProject do
       {:ex_doc, "~> 0.19.3", only: :dev, runtime: false},
       {:excoveralls, "~> 0.9.0", only: :test, runtime: false},
       {:mix_test_watch, "~> 0.9.0", only: :dev, runtime: false},
-      {:poison, "~> 4.0.1"}
+      {:jason, "~> 1.2.2"}
     ]
   end
 

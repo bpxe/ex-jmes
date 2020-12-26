@@ -11,13 +11,13 @@ defmodule JMES.ComplianceTest do
   files
   |> Enum.map(&Path.join(@fixtures_path, &1))
   |> Enum.map(&File.read!/1)
-  |> Enum.map(&Poison.decode!/1)
+  |> Enum.map(&Jason.decode!/1)
   |> Enum.zip(files)
   |> Enum.each(fn {tests, file} ->
     describe file do
       Enum.each(tests, fn test ->
         data = Map.fetch!(test, "given")
-        data_json = Poison.encode!(data) |> String.slice(0..64)
+        data_json = Jason.encode!(data) |> String.slice(0..64)
         cases = Map.fetch!(test, "cases")
 
         Enum.each(cases, fn tc ->
