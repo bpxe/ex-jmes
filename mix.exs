@@ -17,6 +17,7 @@ defmodule JMES.MixProject do
       ],
       description: "JMES implements JMESPath, a query language for JSON (BPXE's fork)",
       source_url: "https://github.com/bpxe/ex-jmes",
+      elixirc_options: [warnings_as_errors: true],
       package: package()
     ]
   end
