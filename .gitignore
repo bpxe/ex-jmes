@@ -27,3 +27,6 @@ jmes-*.tar
 
 # Language server files.
 /.elixir_ls/
+
+# Vim temp files
+*.swp
