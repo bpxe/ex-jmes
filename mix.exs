@@ -34,14 +34,14 @@ defmodule JMES.MixProject do
     [
       # {:dep_from_hexpm, "~> 0.3.0"},
       # {:dep_from_git, git: "https://github.com/elixir-lang/my_dep.git", tag: "0.1.0"}
-      {:assert_value, "~> 0.9.2", only: [:dev, :test]},
-      {:benchee, "~> 1.0.0", only: [:dev]},
-      {:credo, "0.9.0", only: [:dev, :test], runtime: false},
-      {:dialyxir, "~> 1.0.0-rc.4", only: :dev, runtime: false},
-      {:earmark, "~> 1.3", only: :dev, runtime: false},
+      {:assert_value, "~> 0.9.5", only: [:dev, :test]},
+      {:benchee, "~> 1.0.1", only: [:dev]},
+      {:credo, "1.5.4", only: [:dev, :test], runtime: false},
+      {:dialyxir, "~> 1.0.0", only: :dev, runtime: false},
+      {:earmark, "~> 1.4.13", only: :dev, runtime: false},
       {:ex_doc, "~> 0.23.0", only: :dev, runtime: false},
-      {:excoveralls, "~> 0.9.0", only: :test, runtime: false},
-      {:mix_test_watch, "~> 0.9.0", only: :dev, runtime: false},
+      {:excoveralls, "~> 0.13.4", only: :test, runtime: false},
+      {:mix_test_watch, "~> 1.0.2", only: :dev, runtime: false},
       {:jason, "~> 1.2.2"}
     ]
   end
