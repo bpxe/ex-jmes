@@ -3,7 +3,7 @@ defmodule JMES.MixProject do
 
   def project do
     [
-      app: :jmes,
+      app: :bpxe_jmes,
       version: "0.5.0",
       elixir: "~> 1.8",
       start_permanent: Mix.env() == :prod,
@@ -49,7 +49,6 @@ defmodule JMES.MixProject do
 
   defp package do
     [
-      name: "bpxe_jmes",
       licenses: ["MIT"],
       links: %{"GitHub" => "https://github.com/bpxe/ex-jmes"},
       exclude_patterns: ~w(\.swp)
