@@ -14,7 +14,7 @@ The package can be installed by adding `jmes` to your list of dependencies in `m
 ```elixir
 def deps do
   [
-    {:bpxe_jmes, "~> 0.6.0"}
+    {:bpxe_jmes, "~> 0.6.1"}
   ]
 end
 ```
