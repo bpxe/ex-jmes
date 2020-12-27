@@ -49,7 +49,8 @@ defmodule JMES.MixProject do
     [
       name: "bpxe_jmes",
       licenses: ["MIT"],
-      links: %{"GitHub" => "https://github.com/bpxe/ex-jmes"}
+      links: %{"GitHub" => "https://github.com/bpxe/ex-jmes"},
+      exclude_patterns: ~w(\.swp)
     ]
   end
 end
